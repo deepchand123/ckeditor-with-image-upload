@@ -8,7 +8,7 @@
 <script type="text/javascript" src="ckfinder/ckfinder.js"></script>
 <script src="ckeditor/ckeditor.js"></script>
 <script> 
-	var baseurl = 'http://localhost/ck';
+	var baseurl = 'http://localhost/ckeditor-with-image-upload';
 	var editor = CKEDITOR.replace('description');
 	CKFinder.setupCKEditor(editor, baseurl+'/ckfinder/'); 
 </script> 	
